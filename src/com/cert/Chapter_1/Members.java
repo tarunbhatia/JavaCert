@@ -22,6 +22,11 @@ public class Members {
 	final int k = 0;
 	int l = 0;
 
+	//
+//	final static jj = 0;
+//	 int kk = 0;
+//abstract int ll = 0;
+	
 	// transient volatile
 
 	// examples of legal declarations
@@ -61,21 +66,21 @@ public class Members {
 		return 0;
 	}
 
-	public static int g() {
-		return 0;
-	}
+//	public static int g() {
+//		return "x";
+//	}
 
-	public final int h() {
-		return 0;
-	}
+//	public final String h() {
+//		return 0;
+//	}
 
-	synchronized int i() {
-		return 0;
-	}
+//	synchronized int i() {
+//		return 0;
+//	}
 
-	public void j() {
-		System.out.println("a");
-	}
+//	public void int j() {
+//		System.out.println("a");
+//	}
 
 	native int v();
 

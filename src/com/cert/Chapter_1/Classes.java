@@ -10,18 +10,34 @@ public class Classes {
 		new ClassesC().a();
 	}
 
+//	public static  int main(String[] args) {
+//		System.out.println("Classes");
+//		new Classes();
+//	}
 	public static void main(String[] args) {
 		System.out.println("Classes");
 		new Classes();
-
 	}
 }
 
+//class ClassesA implements IFaceA {
+//
+//	public void a() {
+//		System.out.println("ClassesA : a()");
+//	}
+//
+//	public void b(int i) {
+//	}
+//
+//}
 class ClassesA implements IFaceA {
 
+//	public String a() {
+//		System.out.println("ClassesA : a()");
+//	}
 	public void a() {
-		System.out.println("ClassesA : a()");
-	}
+	System.out.println("ClassesA : a()");
+}
 
 	public void b(int i) {
 	}
