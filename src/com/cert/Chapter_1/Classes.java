@@ -6,10 +6,20 @@ Demonstrate Classes
 
 public class Classes {
 
+	public int ints;
+	
 	public Classes() {
-		new ClassesC().a();
+//		public int localInt;
+//		new ClassesC().a();
 	}
 
+//	public void Classes() {
+////		new ClassesC().a();
+//	}
+
+	protected class ClassD{
+		
+	}
 //	public static  int main(String[] args) {
 //		System.out.println("Classes");
 //		new Classes();
@@ -20,7 +30,11 @@ public class Classes {
 	}
 }
 
-//class ClassesA implements IFaceA {
+//protected class ClassD{
+//	
+//}
+
+ //class ClassesA implements IFaceA {
 //
 //	public void a() {
 //		System.out.println("ClassesA : a()");

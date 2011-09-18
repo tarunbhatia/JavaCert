@@ -6,6 +6,9 @@ package com.cert.Chapter_1;
 
 public class Members {
 
+
+	private final static int UNCHANGING = 2;
+	
 	private final static int A = 0;
 	private final int b = 1;
 	private int c = 1;
@@ -24,14 +27,14 @@ public class Members {
 
 	//
 //	final static jj = 0;
-//	 int kk = 0;
+	char kk = '0';
 //abstract int ll = 0;
 	
 	// transient volatile
 
 	// examples of legal declarations
-	public int _a;
-	protected int $a;
+//	public int #_a;
+//	protected int $$$$$$___-a;
 	private int a;
 	int ______2_w;
 
@@ -40,6 +43,13 @@ public class Members {
 	// int boolean ;
 	Members() {
 		System.out.println("Members");
+		
+		int a = Members.A;
+//		int b = Members.b;
+
+		Members m = new Members();
+		int c = m.b;
+
 	}
 
 	private final int a() {
