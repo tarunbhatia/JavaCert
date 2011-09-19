@@ -22,3 +22,9 @@ public class IsHasA {
 	}
 
 }
+
+
+//> Encapsulation (Jose)
+//> Inheritance (Jose)
+//> Polymorphism (Jose)
+//> Overloading/Overriding (Jose)
